@@ -1,5 +1,5 @@
 def square_array(numbers)
   squares = []
- squares << numbers.each {|i| i ** 2}
+ squares.push(numbers.each {|i| i ** 2})
  squares
 end
